@@ -52,13 +52,46 @@ const nav = document.querySelector('.nav');
 menuButton.addEventListener('click', () => {
   const isOpen = nav.classList.toggle('is-open');
   menuButton.setAttribute('aria-expanded', String(isOpen));
-  menuButton.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+  menuButton.setAttribute('aria-label', isOpen ? interfaceText[window.currentLanguage].menuClose : interfaceText[window.currentLanguage].menuOpen);
 });
 nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
   nav.classList.remove('is-open');
   menuButton.setAttribute('aria-expanded', 'false');
-  menuButton.setAttribute('aria-label', 'Abrir menú');
+  menuButton.setAttribute('aria-label', interfaceText[window.currentLanguage].menuOpen);
 }));
+
+const contactForm = document.querySelector('#contact-form');
+const formStatus = contactForm.querySelector('.form-status');
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const labels = interfaceText[window.currentLanguage];
+  const name = contactForm.elements.name.value.trim();
+  const email = contactForm.elements.email.value.trim();
+  const message = contactForm.elements.message.value.trim();
+  formStatus.classList.remove('is-error');
+
+  if (!name || !email || !message) {
+    formStatus.textContent = labels.missing;
+    formStatus.classList.add('is-error');
+    return;
+  }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    formStatus.textContent = labels.email;
+    formStatus.classList.add('is-error');
+    return;
+  }
+
+  const inquiry = `${labels.message}\n${labels.name}: ${name}\n${labels.emailLabel}: ${email}\n\n${message}`;
+  const whatsapp = window.open(`https://wa.me/5491133042528?text=${encodeURIComponent(inquiry)}`, '_blank');
+  if (whatsapp) {
+    whatsapp.opener = null;
+    formStatus.textContent = labels.opened;
+    contactForm.reset();
+  } else {
+    formStatus.textContent = labels.blocked;
+    formStatus.classList.add('is-error');
+  }
+});
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
