@@ -18,6 +18,7 @@ function showSlide(index) {
   activeSlide = (index + slides.length) % slides.length;
   slides.forEach((slide, position) => {
     const selected = position === activeSlide;
+    if (!selected) slide.classList.remove('initial-motion');
     slide.classList.toggle('is-active', selected);
     slide.setAttribute('aria-hidden', String(!selected));
     slide.querySelectorAll('a').forEach((link) => { link.tabIndex = selected ? 0 : -1; });
