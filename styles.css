@@ -88,11 +88,17 @@ html[lang="el"] .closing h2{font-size:clamp(42px,5vw,72px);line-height:1.08}
   --orange-ink:#422b08;
 }
 
-main>section+section{border-top:3px solid var(--brand-orange)}
+main>section+section{border-top:5px solid var(--brand-orange)}
 .eyebrow,.dark-eyebrow{color:var(--brand-orange)}
 .eyebrow-line,.hero-eyebrow .eyebrow-line,.intro-section .eyebrow-line,.closing .eyebrow-line{background:currentColor}
 
+h1,h2,.section-title,.closing h2{
+  font-family:'Gill Sans','Gill Sans MT',var(--body);
+  font-weight:700;
+}
+
 .hero-slide{
+  /* Para aclarar el hero, bajá los valores alfa (.68, .49, .13 y .48) de estos rgba. */
   background-image:linear-gradient(90deg,rgba(4,22,21,.68) 0%,rgba(4,22,21,.49) 38%,rgba(4,22,21,.13) 78%,rgba(4,22,21,.12) 100%),linear-gradient(0deg,rgba(4,22,21,.48),transparent 32%),var(--slide-image);
 }
 .hero h1,.hero h2{
@@ -137,6 +143,18 @@ main>section+section{border-top:3px solid var(--brand-orange)}
 .footer-bottom{border-color:rgba(9,60,32,.2)}
 .back-top{color:#257d2e}
 
+.company-card-icon,.item-symbol{
+  display:inline-grid;
+  place-items:center;
+  width:38px;
+  height:38px;
+  color:var(--brand-orange);
+  font-size:22px;
+}
+.company-card h3{margin-top:18px}
+.item-symbol{color:var(--brand-green);font-size:24px}
+.opportunity-item h3{margin-top:58px}
+
 @media(max-width:1024px){.hero h1,.hero h2{font-size:67px}}
 @media(max-width:768px){
   .hero h1,.hero h2{font-size:58px}
@@ -145,6 +163,7 @@ main>section+section{border-top:3px solid var(--brand-orange)}
   .site-header .nav a:hover{color:#247b2b}
 }
 @media(max-width:480px){
+  /* Ajuste independiente del overlay oscuro del hero en celulares. */
   .hero-slide{background-image:linear-gradient(90deg,rgba(4,22,21,.72),rgba(4,22,21,.34)),linear-gradient(0deg,rgba(4,22,21,.57),transparent 42%),var(--slide-image)}
   .hero h1,.hero h2{font-size:46px;line-height:.98}
   .opportunity-item+article{border-color:rgba(9,60,32,.23)}

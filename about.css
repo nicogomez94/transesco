@@ -10,7 +10,7 @@
 .about-hero h1 em{color:var(--lime);font-style:normal}
 .about-hero-place{margin:24px 0 7px;color:#fff;font-size:16px;font-weight:600}
 .about-hero-subtitle{max-width:470px;margin:0;color:#c6d5c9;font-size:14px;line-height:1.7}
-.about-scroll-link{display:inline-flex;align-items:center;gap:35px;margin-top:24px;padding-bottom:9px;border-bottom:1px solid var(--brand-orange);color:var(--lime);font-size:12px;font-weight:700}
+.about-scroll-link{display:inline-flex;align-items:center;gap:35px;margin-top:24px;padding-bottom:9px;color:var(--lime);font-size:12px;font-weight:700}
 .about-scroll-link span{font-size:18px}
 .about-block{padding:120px 0}
 .about-block h2{max-width:1100px;margin:0;font-family:var(--display);font-size:84px;font-weight:600;letter-spacing:-.015em;line-height:.92}
@@ -59,7 +59,7 @@
 .about-challenges{background:var(--paper)}
 .about-challenge-list{counter-reset:challenge;margin-top:72px;border-top:1px solid var(--line)}
 .about-challenge-list article{counter-increment:challenge;display:grid;grid-template-columns:70px minmax(180px,.65fr) minmax(0,1.35fr);gap:25px;align-items:start;padding:30px 0;border-bottom:1px solid var(--line)}
-.about-challenge-list article::before{content:'0' counter(challenge) ' /';color:var(--brand-orange);font-family:var(--display);font-size:18px}
+.about-challenge-list article::before{content:none}
 .about-challenge-list h3{margin:0;font-family:var(--display);font-size:34px;font-weight:500;line-height:1}
 .about-challenge-list p{max-width:570px;margin:0;color:#52615a;font-size:13px;line-height:1.75}
 .about-trade{background:#e9eee4}
@@ -91,6 +91,7 @@ html[lang="el"] .about-shipowners h2{font-size:57px}
 
 /* Shared brand treatment for the company page. */
 .about-hero{
+  /* Para aclarar este hero, bajá los valores alfa (.69, .46, .11 y .37) de estos rgba. */
   background:linear-gradient(90deg,rgba(4,22,21,.69) 0%,rgba(4,22,21,.46) 48%,rgba(4,22,21,.11) 100%),linear-gradient(0deg,rgba(4,22,21,.37),transparent 38%),url('assets/hero-puerto.jpg') center/cover;
 }
 .about-hero h1{
@@ -101,6 +102,8 @@ html[lang="el"] .about-shipowners h2{font-size:57px}
   letter-spacing:-.045em;
 }
 .about-kicker,.about-opportunity .about-kicker,.about-shipowners .about-kicker{color:var(--brand-orange)}
+.about-company .about-kicker{color:var(--brand-green)}
+.about-block h2,.about-end h2{font-family:'Gill Sans','Gill Sans MT',var(--body);font-weight:700}
 
 .about-opportunity{background:linear-gradient(125deg,var(--soft-green),#d6ebd4);color:var(--ink)}
 .about-opportunity h2 em{color:var(--brand-green)}
@@ -124,10 +127,12 @@ html[lang="el"] .about-shipowners h2{font-size:57px}
 .about-end p:first-of-type{color:var(--brand-orange)}
 .about-end p:last-of-type{color:#405b48}
 body[data-page="about"] .footer{border-top:4px solid var(--brand-orange)}
+.challenge-icon{display:grid;place-items:center;width:42px;height:42px;color:var(--brand-orange);font-size:20px}
 
 @media(max-width:1024px){.about-hero h1{font-size:65px}}
 @media(max-width:768px){.about-hero h1{font-size:58px}}
 @media(max-width:480px){
+  /* Ajuste independiente del overlay oscuro del hero de Quiénes somos en celulares. */
   .about-hero{background:linear-gradient(90deg,rgba(4,22,21,.73),rgba(4,22,21,.32)),linear-gradient(0deg,rgba(4,22,21,.52),transparent 42%),url('assets/hero-puerto.jpg') 55% center/cover}
   .about-hero h1{font-size:45px}
   .about-feature-grid article+article{border-color:rgba(9,60,32,.23)}

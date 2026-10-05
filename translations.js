@@ -100,6 +100,12 @@ const translations = {
 };
 
 Object.assign(translations, {
+  'TRANSESCO S.A.': ['TRANSESCO S.A.', 'TRANSESCO S.A.'],
+  'LAS PALMAS': ['LAS PALMAS', 'LAS PALMAS'],
+  'LA RUTA LOGÍSTICA': ['THE LOGISTICS ROUTE', 'Η ΔΙΑΔΡΟΜΗ ΜΕΤΑΦΟΡΑΣ'],
+  'DE ARGENTINA': ['FROM ARGENTINA', 'ΑΠΟ ΤΗΝ ΑΡΓΕΝΤΙΝΗ'],
+  'NUESTRO VALOR': ['OUR VALUE', 'Η ΑΞΙΑ ΜΑΣ'],
+  'UNA MIRADA REALISTA': ['A REALISTIC VIEW', 'ΜΙΑ ΡΕΑΛΙΣΤΙΚΗ ΜΑΤΙΑ'],
   'TRANSESCO S.A. / 01': ['TRANSESCO S.A. / 01', 'TRANSESCO S.A. / 01'],
   'QUIÉNES': ['WHO WE', 'ΠΟΙΟΙ'],
   'SOMOS.': ['ARE.', 'ΕΙΜΑΣΤΕ.'],
@@ -124,6 +130,11 @@ Object.assign(translations, {
   'Zona Las Palmas — Chaco': ['Las Palmas area — Chaco', 'Περιοχή Las Palmas — Τσάκο'],
   'Hub de importación y exportación para el NOA.': ['Import and export hub for northwestern Argentina.', 'Κόμβος εισαγωγών και εξαγωγών για τη βορειοδυτική Αργεντινή.'],
   'Conocé quiénes somos': ['Discover who we are', 'Γνωρίστε μας'],
+  'LA RUTA': ['THE ROUTE', 'Η ΔΙΑΔΡΟΜΗ'],
+  'De Argentina al mundo, vía trasbordo en TecPlata': ['From Argentina to the world, via transshipment at TecPlata', 'Από την Αργεντινή στον κόσμο, με μεταφόρτωση στο TecPlata'],
+  'RED NAVIERA': ['SHIPPING NETWORK', 'ΝΑΥΤΙΛΙΑΚΟ ΔΙΚΤΥΟ'],
+  'CONDICIONES DEL PUERTO': ['PORT CONDITIONS', 'ΣΥΝΘΗΚΕΣ ΛΙΜΕΝΑ'],
+  'CHACO': ['CHACO', 'ΤΣΑΚΟ'],
   '01 / TRANSESCO S.A.': ['01 / TRANSESCO S.A.', '01 / TRANSESCO S.A.'],
   'Más de 30 años de trayectoria en la industria naval y el comercio exterior.': ['Over 30 years of experience in the maritime industry and foreign trade.', 'Πάνω από 30 χρόνια εμπειρίας στη ναυτιλιακή βιομηχανία και το εξωτερικό εμπόριο.'],
   'Conocemos el rubro desde adentro: trámites, normativas y la operatoria con armadores y autoridades portuarias.': ['We know the sector from the inside: procedures, regulations and operations with shipowners and port authorities.', 'Γνωρίζουμε τον κλάδο εκ των έσω: διαδικασίες, κανονισμούς και συνεργασία με πλοιοκτήτες και λιμενικές αρχές.'],
