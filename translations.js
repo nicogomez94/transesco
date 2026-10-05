@@ -233,6 +233,7 @@ function setLanguage(language) {
   document.querySelector('.whatsapp-float').setAttribute('aria-label', labels.whatsapp);
   document.querySelector('.route-map')?.setAttribute('aria-label', labels.route);
   document.querySelector('.cap-image')?.setAttribute('aria-label', labels.image);
+  document.querySelector('.about-shipowners-image')?.setAttribute('aria-label', labels.image);
   const status = document.querySelector('.form-status');
   if (status) status.textContent = '';
   window.currentLanguage = language;
