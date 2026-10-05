@@ -170,3 +170,4 @@ h1,h2,.section-title,.closing h2{
 }
 @media(max-height:700px) and (min-width:769px){.hero h1,.hero h2{font-size:62px}}
 @media(max-height:680px) and (max-width:480px){.hero h1,.hero h2{font-size:40px}}
+.slide-dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
