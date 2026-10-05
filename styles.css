@@ -99,7 +99,7 @@ h1,h2,.section-title,.closing h2{
 
 .hero-slide{
   /* Para aclarar el hero, bajá los valores alfa (.68, .49, .13 y .48) de estos rgba. */
-  background-image:linear-gradient(90deg,rgba(4,22,21,.68) 0%,rgba(4,22,21,.49) 38%,rgba(4,22,21,.13) 78%,rgba(4,22,21,.12) 100%),linear-gradient(0deg,rgba(4,22,21,.48),transparent 32%),var(--slide-image);
+  background-image:linear-gradient(to right, rgba(173, 115, 0, 0.34), rgba(4, 22, 21, 0.13) 59.66%, rgba(4, 22, 21, 0.12)),linear-gradient(0deg,rgba(4,22,21,.48),transparent 32%),var(--slide-image);
 }
 .hero h1,.hero h2{
   font-family:'Gill Sans','Gill Sans MT',var(--body);
