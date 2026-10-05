@@ -114,6 +114,68 @@ Object.assign(translations, {
   'Tu mensaje se abrirá en WhatsApp para completar el envío.': ['Your message will open in WhatsApp to complete the delivery.', 'Το μήνυμά σας θα ανοίξει στο WhatsApp για να ολοκληρώσετε την αποστολή.']
 });
 
+Object.assign(translations, {
+  'Conocé toda la propuesta': ['Explore the full proposal', 'Δείτε ολόκληρη την πρόταση'],
+  'LAS PALMAS / 02': ['LAS PALMAS / 02', 'LAS PALMAS / 02'],
+  'Quiénes somos — Transesco S.A.': ['About us — Transesco S.A.', 'Ποιοι είμαστε — Transesco S.A.'],
+  'TRANSESCO S.A. · LAS PALMAS, CHACO': ['TRANSESCO S.A. · LAS PALMAS, CHACO', 'TRANSESCO S.A. · LAS PALMAS, ΤΣΑΚΟ'],
+  'OPERADOR': ['LOGISTICS', 'ΕΤΑΙΡΕΙΑ'],
+  'LOGÍSTICO.': ['OPERATOR.', 'ΕΦΟΔΙΑΣΤΙΚΗΣ.'],
+  'Zona Las Palmas — Chaco': ['Las Palmas area — Chaco', 'Περιοχή Las Palmas — Τσάκο'],
+  'Hub de importación y exportación para el NOA.': ['Import and export hub for northwestern Argentina.', 'Κόμβος εισαγωγών και εξαγωγών για τη βορειοδυτική Αργεντινή.'],
+  'Conocé quiénes somos': ['Discover who we are', 'Γνωρίστε μας'],
+  '01 / TRANSESCO S.A.': ['01 / TRANSESCO S.A.', '01 / TRANSESCO S.A.'],
+  'Más de 30 años de trayectoria en la industria naval y el comercio exterior.': ['Over 30 years of experience in the maritime industry and foreign trade.', 'Πάνω από 30 χρόνια εμπειρίας στη ναυτιλιακή βιομηχανία και το εξωτερικό εμπόριο.'],
+  'Conocemos el rubro desde adentro: trámites, normativas y la operatoria con armadores y autoridades portuarias.': ['We know the sector from the inside: procedures, regulations and operations with shipowners and port authorities.', 'Γνωρίζουμε τον κλάδο εκ των έσω: διαδικασίες, κανονισμούς και συνεργασία με πλοιοκτήτες και λιμενικές αρχές.'],
+  'años de experiencia': ['years of experience', 'χρόνια εμπειρίας'],
+  'en el sector naval y logístico': ['in shipping and logistics', 'στη ναυτιλία και την εφοδιαστική'],
+  '02 / LAS PALMAS': ['02 / LAS PALMAS', '02 / LAS PALMAS'],
+  'LA': ['THE', 'Η'],
+  'OPORTUNIDAD.': ['OPPORTUNITY.', 'ΕΥΚΑΙΡΙΑ.'],
+  'Las Palmas como puerta logística del Norte argentino': ['Las Palmas as a logistics gateway for northern Argentina', 'Το Las Palmas ως πύλη μεταφορών της βόρειας Αργεντινής'],
+  'Posición estratégica': ['Strategic location', 'Στρατηγική θέση'],
+  'Salida natural de las cargas del NOA sobre la Hidrovía Paraná-Paraguay.': ['A natural outlet for cargo from northwestern Argentina onto the Paraná–Paraguay Waterway.', 'Φυσική διέξοδος για φορτία της βορειοδυτικής Αργεντινής προς την πλωτή οδό Παρανά–Παραγουάης.'],
+  'Hub de impo y expo': ['Import and export hub', 'Κόμβος εισαγωγών και εξαγωγών'],
+  'Un único nodo concentra exportaciones e importaciones de la región.': ["A single hub concentrates the region's exports and imports.", 'Ένας ενιαίος κόμβος συγκεντρώνει τις εξαγωγές και τις εισαγωγές της περιοχής.'],
+  'Conexión al mundo': ['Connection to the world', 'Σύνδεση με τον κόσμο'],
+  'Enlace fluvial-marítimo hacia los grandes puertos y el resto del mundo.': ['A river and sea link to major ports and the rest of the world.', 'Ποτάμια και θαλάσσια σύνδεση με μεγάλα λιμάνια και τον υπόλοιπο κόσμο.'],
+  '03 / LA RUTA': ['03 / THE ROUTE', '03 / Η ΔΙΑΔΡΟΜΗ'],
+  'LA RUTA': ['THE ROUTE', 'Η ΔΙΑΔΡΟΜΗ'],
+  'LOGÍSTICA.': ['LOGISTICS.', 'ΜΕΤΑΦΟΡΑΣ.'],
+  'De Chaco al mundo, vía trasbordo en TecPlata': ['From Chaco to the world, via transshipment at TecPlata', 'Από το Τσάκο στον κόσμο, με μεταφόρτωση στο TecPlata'],
+  'Chaco / Las Palmas': ['Chaco / Las Palmas', 'Τσάκο / Las Palmas'],
+  'Origen de la carga': ['Cargo origin', 'Προέλευση φορτίου'],
+  'TecPlata (La Plata)': ['TecPlata (La Plata)', 'TecPlata (Λα Πλάτα)'],
+  'Trasbordo a buque oceánico': ['Transshipment to an ocean vessel', 'Μεταφόρτωση σε ποντοπόρο πλοίο'],
+  'Resto del mundo': ['Rest of the world', 'Υπόλοιπος κόσμος'],
+  'Destino final de exportación': ['Final export destination', 'Τελικός προορισμός εξαγωγής'],
+  'El trasbordo en TecPlata evita escalas en puertos extranjeros y reduce costos de la cadena.': ['Transshipment at TecPlata avoids calls at foreign ports and reduces supply chain costs.', 'Η μεταφόρτωση στο TecPlata αποφεύγει στάσεις σε ξένα λιμάνια και μειώνει το κόστος της εφοδιαστικής αλυσίδας.'],
+  '04 / RED NAVIERA': ['04 / SHIPPING NETWORK', '04 / ΝΑΥΤΙΛΙΑΚΟ ΔΙΚΤΥΟ'],
+  'RELACIÓN CON': ['RELATIONSHIPS WITH', 'ΣΧΕΣΕΙΣ ΜΕ'],
+  'ARMADORES.': ['SHIPOWNERS.', 'ΠΛΟΙΟΚΤΗΤΕΣ.'],
+  'Vínculo comercial con armadores internacionales': ['Commercial relationships with international shipowners', 'Εμπορικές σχέσεις με διεθνείς πλοιοκτήτες'],
+  'El nexo directo con líneas navieras y armadores es clave para asegurar bodega, frecuencias y condiciones competitivas para la carga regional.': ['Direct links with shipping lines and shipowners are key to securing cargo space, sailing frequency and competitive terms for regional freight.', 'Η άμεση σχέση με ναυτιλιακές εταιρείες και πλοιοκτήτες είναι βασική για την εξασφάλιση χώρου φορτίου, συχνών δρομολογίων και ανταγωνιστικών όρων για τα φορτία της περιοχής.'],
+  '05 / CONDICIONES DEL PUERTO': ['05 / PORT CONDITIONS', '05 / ΣΥΝΘΗΚΕΣ ΛΙΜΕΝΑ'],
+  'PROBLEMÁTICAS': ['PORT', 'ΛΙΜΕΝΙΚΕΣ'],
+  'DEL PUERTO.': ['CHALLENGES.', 'ΠΡΟΚΛΗΣΕΙΣ.'],
+  'Calado y dragado': ['Draft and dredging', 'Βύθισμα και βυθοκόρηση'],
+  'El riacho carece de dragado permanente: la profundidad varía con fuertes oscilaciones y limita el ingreso de buques.': ['The channel has no permanent dredging: its depth fluctuates sharply and limits vessel access.', 'Το κανάλι δεν βυθοκορείται μόνιμα: το βάθος του παρουσιάζει μεγάλες διακυμάνσεις και περιορίζει την είσοδο πλοίων.'],
+  'Dependencia del Paraná': ['Dependence on the Paraná', 'Εξάρτηση από τον Παρανά'],
+  'Las bajantes del río condicionan la operatoria y restan previsibilidad a la navegación.': ['Low river levels constrain operations and make navigation less predictable.', 'Η χαμηλή στάθμη του ποταμού περιορίζει τις δραστηριότητες και μειώνει την προβλεψιμότητα της ναυσιπλοΐας.'],
+  'Capacidad e infraestructura': ['Capacity and infrastructure', 'Δυναμικότητα και υποδομές'],
+  'Las terminales graneleras están cerca de su techo operativo; Las Palmas aún tiene recorrido para su plena habilitación.': ['Bulk terminals are close to their operating limit; Las Palmas still has work ahead before it can become fully operational.', 'Οι τερματικοί σταθμοί χύδην φορτίου πλησιάζουν τα όρια λειτουργίας τους· το Las Palmas χρειάζεται ακόμη βήματα για να λειτουργήσει πλήρως.'],
+  '06 / CHACO': ['06 / CHACO', '06 / ΤΣΑΚΟ'],
+  'COMERCIO EXTERIOR': ['FOREIGN TRADE', 'ΕΞΩΤΕΡΙΚΟ ΕΜΠΟΡΙΟ'],
+  'DE CHACO.': ['IN CHACO.', 'ΤΟΥ ΤΣΑΚΟ.'],
+  'exportados en 2024 · +33% i.a. · 2º mejor desempeño del NEA': ['exported in 2024 · +33% year over year · 2nd best performance in northeastern Argentina', 'εξαγωγές το 2024 · +33% σε ετήσια βάση · 2η καλύτερη επίδοση στη βορειοανατολική Αργεντινή'],
+  'Importaciones': ['Imports', 'Εισαγωγές'],
+  'Hoy menores frente a las exportaciones y canalizadas mayormente por Buenos Aires.': ['Currently lower than exports and mostly routed through Buenos Aires.', 'Σήμερα είναι μικρότερες από τις εξαγωγές και διεκπεραιώνονται κυρίως μέσω του Μπουένος Άιρες.'],
+  'Un hub en Las Palmas es la oportunidad para captar también el flujo de insumos, maquinaria y combustibles de la región.': ['A hub in Las Palmas is an opportunity to capture regional flows of supplies, machinery and fuel as well.', 'Ένας κόμβος στο Las Palmas μπορεί επίσης να εξυπηρετήσει τη ροή εφοδίων, μηχανημάτων και καυσίμων της περιοχής.'],
+  'Transesco, operador logístico de Las Palmas': ['Transesco, logistics operator in Las Palmas', 'Transesco, εταιρεία εφοδιαστικής στο Las Palmas'],
+  'Conectar la producción del Norte argentino con el mundo.': ['Connecting northern Argentina’s production with the world.', 'Συνδέουμε την παραγωγή της βόρειας Αργεντινής με τον κόσμο.'],
+  'Contactanos': ['Contact us', 'Επικοινωνήστε μαζί μας']
+});
+
 const interfaceText = {
   es: { missing: 'Completá todos los campos.', email: 'Ingresá un correo electrónico válido.', opened: 'Se abrió WhatsApp con tu consulta. Confirmá el envío allí.', blocked: 'No se pudo abrir WhatsApp. Permití las ventanas emergentes e intentá de nuevo.', message: 'Consulta desde Transesco', name: 'Nombre', emailLabel: 'Correo', language: 'Idioma', nav: 'Navegación principal', menuOpen: 'Abrir menú', menuClose: 'Cerrar menú', hero: 'Presentación de Transesco', previous: 'Slide anterior', next: 'Slide siguiente', slide: 'Ver slide', back: 'Volver al inicio', whatsapp: 'Contactar a Transesco por WhatsApp', route: 'Ruta: Las Palmas, TecPlata y el resto del mundo', image: 'Buque de carga en una terminal portuaria' },
   en: { missing: 'Please complete all fields.', email: 'Enter a valid email address.', opened: 'WhatsApp opened with your inquiry. Please send it there.', blocked: 'WhatsApp could not be opened. Allow pop-ups and try again.', message: 'Inquiry from Transesco', name: 'Name', emailLabel: 'Email', language: 'Language', nav: 'Main navigation', menuOpen: 'Open menu', menuClose: 'Close menu', hero: 'Introducing Transesco', previous: 'Previous slide', next: 'Next slide', slide: 'View slide', back: 'Back to top', whatsapp: 'Contact Transesco on WhatsApp', route: 'Route: Las Palmas, TecPlata and the rest of the world', image: 'Cargo ship at a port terminal' },
@@ -124,6 +186,12 @@ const pageMetadata = {
   es: { description: 'Transesco S.A. Conectamos la producción del Norte argentino con el mundo desde Las Palmas, Chaco, a través de soluciones de logística fluvial y comercio exterior.', ogDescription: 'Operador logístico en Las Palmas, Chaco. Más de 30 años de trayectoria naval y en comercio exterior.', greeting: 'Hola, quisiera conversar sobre la propuesta logística de Transesco.' },
   en: { description: 'Transesco S.A. connects production in northern Argentina with the world from Las Palmas, Chaco, through river logistics and foreign trade.', ogDescription: 'Logistics operator in Las Palmas, Chaco. Over 30 years of maritime and foreign trade experience.', greeting: 'Hello, I would like to discuss the Transesco logistics proposal.' },
   el: { description: 'Η Transesco S.A. συνδέει την παραγωγή της βόρειας Αργεντινής με τον κόσμο από το Las Palmas του Τσάκο, μέσω ποτάμιων μεταφορών και εξωτερικού εμπορίου.', ogDescription: 'Εταιρεία εφοδιαστικής στο Las Palmas του Τσάκο, με πάνω από 30 χρόνια εμπειρίας στη ναυτιλία και το εξωτερικό εμπόριο.', greeting: 'Γεια σας, θα ήθελα να συζητήσουμε την πρόταση μεταφοράς της Transesco.' }
+};
+
+const aboutMetadata = {
+  es: { title: 'Quiénes somos — Transesco S.A.', description: 'Conocé la trayectoria de Transesco S.A. y la propuesta logística de Las Palmas, Chaco: oportunidad, ruta, armadores, desafíos portuarios y comercio exterior.' },
+  en: { title: 'About us — Transesco S.A.', description: 'Explore Transesco S.A. and the Las Palmas logistics proposal: opportunity, route, shipping partners, port challenges and foreign trade.' },
+  el: { title: 'Ποιοι είμαστε — Transesco S.A.', description: 'Γνωρίστε την Transesco S.A. και την πρόταση μεταφοράς του Las Palmas: ευκαιρία, διαδρομή, ναυτιλιακές συνεργασίες, λιμενικές προκλήσεις και εξωτερικό εμπόριο.' }
 };
 
 const translatableNodes = [];
@@ -140,10 +208,11 @@ function setLanguage(language) {
     node.textContent = node.textContent.replace(node.textContent.trim(), language === 'es' ? key : translations[key][index]);
   });
   document.documentElement.lang = language === 'es' ? 'es-AR' : language;
-  document.title = language === 'es' ? 'Transesco S.A. — Logística que abre horizontes' : translations['Transesco S.A. — Logística que abre horizontes'][index];
-  document.querySelector('meta[name="description"]').content = pageMetadata[language].description;
+  const isAbout = document.body.dataset.page === 'about';
+  document.title = isAbout ? aboutMetadata[language].title : (language === 'es' ? 'Transesco S.A. — Logística que abre horizontes' : translations['Transesco S.A. — Logística que abre horizontes'][index]);
+  document.querySelector('meta[name="description"]').content = isAbout ? aboutMetadata[language].description : pageMetadata[language].description;
   document.querySelector('meta[property="og:title"]').content = document.title;
-  document.querySelector('meta[property="og:description"]').content = pageMetadata[language].ogDescription;
+  document.querySelector('meta[property="og:description"]').content = isAbout ? aboutMetadata[language].description : pageMetadata[language].ogDescription;
   document.querySelectorAll('.whatsapp-float').forEach(link => {
     link.href = `https://wa.me/5491133042528?text=${encodeURIComponent(pageMetadata[language].greeting)}`;
   });
@@ -156,17 +225,21 @@ function setLanguage(language) {
   document.querySelector('.language-switch').setAttribute('aria-label', labels.language);
   document.querySelector('.nav').setAttribute('aria-label', labels.nav);
   document.querySelector('.menu-toggle').setAttribute('aria-label', document.querySelector('.nav').classList.contains('is-open') ? labels.menuClose : labels.menuOpen);
-  document.querySelector('.hero').setAttribute('aria-label', labels.hero);
-  document.querySelector('.slide-prev').setAttribute('aria-label', labels.previous);
-  document.querySelector('.slide-next').setAttribute('aria-label', labels.next);
+  document.querySelector('.hero')?.setAttribute('aria-label', labels.hero);
+  document.querySelector('.slide-prev')?.setAttribute('aria-label', labels.previous);
+  document.querySelector('.slide-next')?.setAttribute('aria-label', labels.next);
   document.querySelectorAll('.slide-tab').forEach((tab, i) => tab.setAttribute('aria-label', `${labels.slide} ${i + 1}`));
   document.querySelector('.footer .brand').setAttribute('aria-label', labels.back);
   document.querySelector('.whatsapp-float').setAttribute('aria-label', labels.whatsapp);
-  document.querySelector('.route-map').setAttribute('aria-label', labels.route);
-  document.querySelector('.cap-image').setAttribute('aria-label', labels.image);
-  document.querySelector('.form-status').textContent = '';
+  document.querySelector('.route-map')?.setAttribute('aria-label', labels.route);
+  document.querySelector('.cap-image')?.setAttribute('aria-label', labels.image);
+  const status = document.querySelector('.form-status');
+  if (status) status.textContent = '';
   window.currentLanguage = language;
 }
 
-document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
-setLanguage('es');
+document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => {
+  sessionStorage.setItem('transesco-language', button.dataset.lang);
+  setLanguage(button.dataset.lang);
+}));
+setLanguage(sessionStorage.getItem('transesco-language') || 'es');
