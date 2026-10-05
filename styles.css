@@ -173,3 +173,14 @@ h1,h2,.section-title,.closing h2{
 .slide-dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
 .slide-arrows .slide-toggle{width:32px;height:32px;align-self:center;border-color:rgba(255,255,255,.3);font-size:11px}
 @media(max-width:480px){.slide-arrows .slide-toggle{width:29px;height:29px;font-size:10px}}
+
+/* Hero actions and progress use the orange accent from the brand system. */
+.hero .button.button-lime{min-height:auto;padding:0 0 8px;border-bottom:2px solid var(--brand-orange);background:transparent;color:#fff}
+.hero .button.button-lime:hover{background:transparent;color:var(--brand-orange)}
+.hero .button.button-lime span{color:var(--brand-orange)}
+.slide-tab{color:rgba(244,151,0,.48)}
+.slide-tab.is-active{color:var(--brand-orange)}
+.slide-tab i{background:rgba(244,151,0,.32)}
+.slide-tab.is-active i::after{background:var(--brand-orange)}
+.intro i{background:var(--brand-orange)}
+@media(max-width:480px){.hero .button.button-lime{min-height:auto}.slide-tab.is-active{border-bottom-color:var(--brand-orange)}}
