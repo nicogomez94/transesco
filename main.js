@@ -1,8 +1,18 @@
 const slides = [...document.querySelectorAll('.hero-slide')];
 const tabs = [...document.querySelectorAll('.slide-tab')];
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+const hero = document.querySelector('.hero');
+const slideToggle = document.querySelector('.slide-toggle');
 let activeSlide = 0;
 let slideTimer;
+let slideshowPaused = reducedMotion.matches;
+
+function syncSlideshowToggle() {
+  hero.classList.toggle('is-paused', slideshowPaused);
+  slideToggle.setAttribute('aria-pressed', String(slideshowPaused));
+  slideToggle.setAttribute('aria-label', slideshowPaused ? 'Reproducir slideshow' : 'Pausar slideshow');
+  slideToggle.innerHTML = `<i class="fa-solid fa-${slideshowPaused ? 'play' : 'pause'}" aria-hidden="true"></i>`;
+}
 
 function restartProgress() {
   tabs.forEach((tab) => {
@@ -35,7 +45,7 @@ function showSlide(index) {
 
 function resetSlideTimer() {
   window.clearInterval(slideTimer);
-  if (!reducedMotion.matches && !document.hidden) {
+  if (!slideshowPaused && !document.hidden) {
     slideTimer = window.setInterval(() => showSlide(activeSlide + 1), 7000);
   }
 }
@@ -43,8 +53,19 @@ function resetSlideTimer() {
 tabs.forEach((tab, index) => tab.addEventListener('click', () => showSlide(index)));
 document.querySelector('.slide-prev').addEventListener('click', () => showSlide(activeSlide - 1));
 document.querySelector('.slide-next').addEventListener('click', () => showSlide(activeSlide + 1));
+slideToggle.addEventListener('click', () => {
+  slideshowPaused = !slideshowPaused;
+  syncSlideshowToggle();
+  if (!slideshowPaused) restartProgress();
+  resetSlideTimer();
+});
 document.addEventListener('visibilitychange', resetSlideTimer);
-reducedMotion.addEventListener('change', resetSlideTimer);
+reducedMotion.addEventListener('change', () => {
+  slideshowPaused = reducedMotion.matches;
+  syncSlideshowToggle();
+  resetSlideTimer();
+});
+syncSlideshowToggle();
 showSlide(0);
 
 const menuButton = document.querySelector('.menu-toggle');
