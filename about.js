@@ -19,7 +19,7 @@ const observer = new IntersectionObserver((entries) => {
       observer.unobserve(entry.target);
     }
   });
-}, { threshold: 0.1, rootMargin: '0px 0px -25px 0px' });
+}, { threshold: 0.01, rootMargin: '0px 0px 140px 0px' });
 document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
 
 document.querySelector('#year').textContent = new Date().getFullYear();

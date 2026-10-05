@@ -54,6 +54,11 @@ menuButton.addEventListener('click', () => {
   menuButton.setAttribute('aria-expanded', String(isOpen));
   menuButton.setAttribute('aria-label', isOpen ? interfaceText[window.currentLanguage].menuClose : interfaceText[window.currentLanguage].menuOpen);
 });
+nav.querySelector('[data-about-link]').addEventListener('click', (event) => {
+  if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  window.location.assign('/quienes-somos.html');
+});
 nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
   nav.classList.remove('is-open');
   menuButton.setAttribute('aria-expanded', 'false');
