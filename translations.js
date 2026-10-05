@@ -2,6 +2,7 @@ const translations = {
   'Transesco S.A. — Logística que abre horizontes': ['Transesco S.A. — Logistics that opens horizons', 'Transesco S.A. — Η εφοδιαστική που ανοίγει ορίζοντες'],
   'OPERADOR LOGÍSTICO': ['LOGISTICS OPERATOR', 'ΕΤΑΙΡΕΙΑ ΕΦΟΔΙΑΣΤΙΚΗΣ'],
   'Nosotros': ['About us', 'Σχετικά με εμάς'],
+  'Quiénes somos': ['Who we are', 'Ποιοι είμαστε'],
   'Ruta logística': ['Logistics route', 'Διαδρομή μεταφοράς'],
   'Contacto': ['Contact', 'Επικοινωνία'],
   'Conversemos': ["Let's talk", 'Ας μιλήσουμε'],
@@ -87,13 +88,10 @@ const translations = {
   'CONECTEMOS': ["LET'S CONNECT", 'ΑΣ ΣΥΝΔΕΣΟΥΜΕ'],
   'FUTURO.': ['FUTURE.', 'ΜΕΛΛΟΝ.'],
   'De Las Palmas al mundo. Una nueva ruta para la producción del Norte argentino.': ['From Las Palmas to the world. A new route for northern Argentina’s production.', 'Από το Las Palmas στον κόσμο. Μια νέα διαδρομή για την παραγωγή της βόρειας Αργεντινής.'],
-  'Hablar con Jorge': ['Talk to Jorge', 'Μιλήστε με τον Jorge'],
-  'Ver presentación': ['View presentation', 'Δείτε την παρουσίαση'],
   'Envianos tu consulta': ['Send us your inquiry', 'Στείλτε μας το ερώτημά σας'],
   'Nombre': ['Name', 'Όνομα'],
   'Correo electrónico': ['Email address', 'Διεύθυνση email'],
   'Mensaje': ['Message', 'Μήνυμα'],
-  'Tu mensaje se abrirá en WhatsApp para enviarlo a Jorge.': ['Your message will open in WhatsApp so you can send it to Jorge.', 'Το μήνυμά σας θα ανοίξει στο WhatsApp για να το στείλετε στον Jorge.'],
   'Enviar consulta': ['Send inquiry', 'Αποστολή ερωτήματος'],
   'Argentina': ['Argentina', 'Αργεντινή'],
   'VOLVER ARRIBA ↑': ['BACK TO TOP ↑', 'ΕΠΙΣΤΡΟΦΗ ΣΤΗΝ ΚΟΡΥΦΗ ↑'],
@@ -101,16 +99,31 @@ const translations = {
   'Hecho por zigodev': ['Made by zigodev', 'Δημιουργία: zigodev']
 };
 
+Object.assign(translations, {
+  'TRANSESCO S.A. / 01': ['TRANSESCO S.A. / 01', 'TRANSESCO S.A. / 01'],
+  'QUIÉNES': ['WHO WE', 'ΠΟΙΟΙ'],
+  'SOMOS.': ['ARE.', 'ΕΙΜΑΣΤΕ.'],
+  'Soluciones técnicas para la industria naval.': ['Technical solutions for the maritime industry.', 'Τεχνικές λύσεις για τη ναυτιλιακή βιομηχανία.'],
+  'Trabajamos en los desafíos que surgen durante la construcción, modificación, transformación, reparación y desguace de buques de bandera nacional y extranjera. Acompañamos cada proyecto con conocimiento técnico y atención a las normas vigentes.': ['We address the challenges that arise in the construction, modification, conversion, repair and dismantling of domestic and foreign flagged vessels. We support each project with technical expertise and attention to current regulations.', 'Αντιμετωπίζουμε τις προκλήσεις που προκύπτουν κατά την κατασκευή, τροποποίηση, μετασκευή, επισκευή και διάλυση πλοίων με εθνική ή ξένη σημαία. Υποστηρίζουμε κάθε έργο με τεχνική γνώση και συμμόρφωση με τους ισχύοντες κανονισμούς.'],
+  'Nuestra trayectoria': ['Our track record', 'Η πορεία μας'],
+  'Tenemos amplia experiencia en el ámbito naval y mantenemos una relación de trabajo con instituciones del sector, incluida la Prefectura Naval Argentina y sus áreas de seguridad de la navegación y evaluación técnica.': ['We have broad maritime experience and work with sector institutions, including the Argentine Naval Prefecture and its navigation safety and technical assessment divisions.', 'Διαθέτουμε μεγάλη εμπειρία στη ναυτιλία και συνεργαζόμαστε με φορείς του κλάδου, όπως η Ναυτική Ακτοφυλακή της Αργεντινής και οι υπηρεσίες της για την ασφάλεια της ναυσιπλοΐας και την τεχνική αξιολόγηση.'],
+  'Nuestro objetivo': ['Our goal', 'Ο στόχος μας'],
+  'Buscamos responder a los requerimientos de cada cliente y cumplir las normas aplicables para lograr la aprobación de los trabajos encomendados.': ['We aim to meet each client’s requirements and comply with applicable regulations to obtain approval for the work entrusted to us.', 'Στόχος μας είναι να ανταποκρινόμαστε στις απαιτήσεις κάθε πελάτη και να τηρούμε τους ισχύοντες κανονισμούς, ώστε να εγκρίνονται οι εργασίες που μας ανατίθενται.'],
+  'Qué hacemos': ['What we do', 'Τι κάνουμε'],
+  'Presentamos proyectos y documentación para buques mercantes y embarcaciones deportivas. Realizamos análisis técnicos previos, inspecciones de construcciones y carenados, pruebas, revisiones y controles.': ['We prepare projects and documentation for merchant ships and recreational vessels. We carry out preliminary technical assessments, inspections of construction and dry docking work, tests, reviews and checks.', 'Συντάσσουμε έργα και τεκμηρίωση για εμπορικά πλοία και σκάφη αναψυχής. Πραγματοποιούμε προκαταρκτικές τεχνικές αξιολογήσεις, επιθεωρήσεις κατασκευών και εργασιών δεξαμενισμού, δοκιμές, ελέγχους και αναθεωρήσεις.'],
+  'Tu mensaje se abrirá en WhatsApp para completar el envío.': ['Your message will open in WhatsApp to complete the delivery.', 'Το μήνυμά σας θα ανοίξει στο WhatsApp για να ολοκληρώσετε την αποστολή.']
+});
+
 const interfaceText = {
-  es: { missing: 'Completá todos los campos.', email: 'Ingresá un correo electrónico válido.', opened: 'Se abrió WhatsApp con tu consulta. Confirmá el envío allí.', blocked: 'No se pudo abrir WhatsApp. Permití las ventanas emergentes e intentá de nuevo.', message: 'Consulta desde Transesco', name: 'Nombre', emailLabel: 'Correo', language: 'Idioma', nav: 'Navegación principal', menuOpen: 'Abrir menú', menuClose: 'Cerrar menú', hero: 'Presentación de Transesco', previous: 'Slide anterior', next: 'Slide siguiente', slide: 'Ver slide', back: 'Volver al inicio', whatsapp: 'Contactar a Jorge Proios por WhatsApp', route: 'Ruta: Las Palmas, TecPlata y el resto del mundo', image: 'Buque de carga en una terminal portuaria' },
-  en: { missing: 'Please complete all fields.', email: 'Enter a valid email address.', opened: 'WhatsApp opened with your inquiry. Please send it there.', blocked: 'WhatsApp could not be opened. Allow pop-ups and try again.', message: 'Inquiry from Transesco', name: 'Name', emailLabel: 'Email', language: 'Language', nav: 'Main navigation', menuOpen: 'Open menu', menuClose: 'Close menu', hero: 'Introducing Transesco', previous: 'Previous slide', next: 'Next slide', slide: 'View slide', back: 'Back to top', whatsapp: 'Contact Jorge Proios on WhatsApp', route: 'Route: Las Palmas, TecPlata and the rest of the world', image: 'Cargo ship at a port terminal' },
-  el: { missing: 'Συμπληρώστε όλα τα πεδία.', email: 'Εισαγάγετε μια έγκυρη διεύθυνση email.', opened: 'Το WhatsApp άνοιξε με το ερώτημά σας. Ολοκληρώστε την αποστολή εκεί.', blocked: 'Δεν ήταν δυνατό το άνοιγμα του WhatsApp. Επιτρέψτε τα αναδυόμενα παράθυρα και δοκιμάστε ξανά.', message: 'Ερώτημα από την Transesco', name: 'Όνομα', emailLabel: 'Email', language: 'Γλώσσα', nav: 'Κύρια πλοήγηση', menuOpen: 'Άνοιγμα μενού', menuClose: 'Κλείσιμο μενού', hero: 'Παρουσίαση της Transesco', previous: 'Προηγούμενη διαφάνεια', next: 'Επόμενη διαφάνεια', slide: 'Προβολή διαφάνειας', back: 'Επιστροφή στην αρχή', whatsapp: 'Επικοινωνήστε με τον Jorge Proios μέσω WhatsApp', route: 'Διαδρομή: Las Palmas, TecPlata και ο υπόλοιπος κόσμος', image: 'Φορτηγό πλοίο σε λιμενικό σταθμό' }
+  es: { missing: 'Completá todos los campos.', email: 'Ingresá un correo electrónico válido.', opened: 'Se abrió WhatsApp con tu consulta. Confirmá el envío allí.', blocked: 'No se pudo abrir WhatsApp. Permití las ventanas emergentes e intentá de nuevo.', message: 'Consulta desde Transesco', name: 'Nombre', emailLabel: 'Correo', language: 'Idioma', nav: 'Navegación principal', menuOpen: 'Abrir menú', menuClose: 'Cerrar menú', hero: 'Presentación de Transesco', previous: 'Slide anterior', next: 'Slide siguiente', slide: 'Ver slide', back: 'Volver al inicio', whatsapp: 'Contactar a Transesco por WhatsApp', route: 'Ruta: Las Palmas, TecPlata y el resto del mundo', image: 'Buque de carga en una terminal portuaria' },
+  en: { missing: 'Please complete all fields.', email: 'Enter a valid email address.', opened: 'WhatsApp opened with your inquiry. Please send it there.', blocked: 'WhatsApp could not be opened. Allow pop-ups and try again.', message: 'Inquiry from Transesco', name: 'Name', emailLabel: 'Email', language: 'Language', nav: 'Main navigation', menuOpen: 'Open menu', menuClose: 'Close menu', hero: 'Introducing Transesco', previous: 'Previous slide', next: 'Next slide', slide: 'View slide', back: 'Back to top', whatsapp: 'Contact Transesco on WhatsApp', route: 'Route: Las Palmas, TecPlata and the rest of the world', image: 'Cargo ship at a port terminal' },
+  el: { missing: 'Συμπληρώστε όλα τα πεδία.', email: 'Εισαγάγετε μια έγκυρη διεύθυνση email.', opened: 'Το WhatsApp άνοιξε με το ερώτημά σας. Ολοκληρώστε την αποστολή εκεί.', blocked: 'Δεν ήταν δυνατό το άνοιγμα του WhatsApp. Επιτρέψτε τα αναδυόμενα παράθυρα και δοκιμάστε ξανά.', message: 'Ερώτημα από την Transesco', name: 'Όνομα', emailLabel: 'Email', language: 'Γλώσσα', nav: 'Κύρια πλοήγηση', menuOpen: 'Άνοιγμα μενού', menuClose: 'Κλείσιμο μενού', hero: 'Παρουσίαση της Transesco', previous: 'Προηγούμενη διαφάνεια', next: 'Επόμενη διαφάνεια', slide: 'Προβολή διαφάνειας', back: 'Επιστροφή στην αρχή', whatsapp: 'Επικοινωνήστε με την Transesco μέσω WhatsApp', route: 'Διαδρομή: Las Palmas, TecPlata και ο υπόλοιπος κόσμος', image: 'Φορτηγό πλοίο σε λιμενικό σταθμό' }
 };
 
 const pageMetadata = {
-  es: { description: 'Transesco S.A. Conectamos la producción del Norte argentino con el mundo desde Las Palmas, Chaco, a través de soluciones de logística fluvial y comercio exterior.', ogDescription: 'Operador logístico en Las Palmas, Chaco. Más de 30 años de trayectoria naval y en comercio exterior.', greeting: 'Hola Jorge, quisiera conversar sobre la propuesta logística de Transesco.' },
-  en: { description: 'Transesco S.A. connects production in northern Argentina with the world from Las Palmas, Chaco, through river logistics and foreign trade.', ogDescription: 'Logistics operator in Las Palmas, Chaco. Over 30 years of maritime and foreign trade experience.', greeting: 'Hello Jorge, I would like to discuss the Transesco logistics proposal.' },
-  el: { description: 'Η Transesco S.A. συνδέει την παραγωγή της βόρειας Αργεντινής με τον κόσμο από το Las Palmas του Τσάκο, μέσω ποτάμιων μεταφορών και εξωτερικού εμπορίου.', ogDescription: 'Εταιρεία εφοδιαστικής στο Las Palmas του Τσάκο, με πάνω από 30 χρόνια εμπειρίας στη ναυτιλία και το εξωτερικό εμπόριο.', greeting: 'Γεια σου Jorge, θα ήθελα να συζητήσουμε την πρόταση μεταφοράς της Transesco.' }
+  es: { description: 'Transesco S.A. Conectamos la producción del Norte argentino con el mundo desde Las Palmas, Chaco, a través de soluciones de logística fluvial y comercio exterior.', ogDescription: 'Operador logístico en Las Palmas, Chaco. Más de 30 años de trayectoria naval y en comercio exterior.', greeting: 'Hola, quisiera conversar sobre la propuesta logística de Transesco.' },
+  en: { description: 'Transesco S.A. connects production in northern Argentina with the world from Las Palmas, Chaco, through river logistics and foreign trade.', ogDescription: 'Logistics operator in Las Palmas, Chaco. Over 30 years of maritime and foreign trade experience.', greeting: 'Hello, I would like to discuss the Transesco logistics proposal.' },
+  el: { description: 'Η Transesco S.A. συνδέει την παραγωγή της βόρειας Αργεντινής με τον κόσμο από το Las Palmas του Τσάκο, μέσω ποτάμιων μεταφορών και εξωτερικού εμπορίου.', ogDescription: 'Εταιρεία εφοδιαστικής στο Las Palmas του Τσάκο, με πάνω από 30 χρόνια εμπειρίας στη ναυτιλία και το εξωτερικό εμπόριο.', greeting: 'Γεια σας, θα ήθελα να συζητήσουμε την πρόταση μεταφοράς της Transesco.' }
 };
 
 const translatableNodes = [];
@@ -131,7 +144,7 @@ function setLanguage(language) {
   document.querySelector('meta[name="description"]').content = pageMetadata[language].description;
   document.querySelector('meta[property="og:title"]').content = document.title;
   document.querySelector('meta[property="og:description"]').content = pageMetadata[language].ogDescription;
-  document.querySelectorAll('.closing-actions a[href^="https://wa.me/"], .whatsapp-float').forEach(link => {
+  document.querySelectorAll('.whatsapp-float').forEach(link => {
     link.href = `https://wa.me/5491133042528?text=${encodeURIComponent(pageMetadata[language].greeting)}`;
   });
   document.querySelectorAll('[data-lang]').forEach(button => {
